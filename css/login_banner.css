@@ -1,0 +1,16 @@
+.login_banner {
+    width: 100%;
+    height: 120px;
+    background-color: #00b38a;
+}
+.login_banner .ad_banner {
+    width: 710px;
+    height: 120px;
+    padding-left: 366px;
+}
+.login_banner .ad_banner img {
+    width: 228px;
+    height: 120px;
+
+    
+}

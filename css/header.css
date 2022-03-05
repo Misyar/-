@@ -1,0 +1,146 @@
+.header {
+    width: 100%;
+    height: 40px;
+    background: #32373e;
+    line-height: 40px;
+}
+.header_c {
+    height: 40px;
+}
+.header_c .header_left {
+    float: left;
+}
+
+/* logo部分 */
+.header_c .header_left .logo {
+    float: left;
+    width: 66px;
+    height: 31px;
+    padding-top: 12px;
+    margin-right: 34px;
+}
+.header_c .header_left .logo a {
+    display: block;
+    width: 66px;
+    height: 16px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100%;
+    text-indent: -999em;
+    overflow: hidden;
+}
+/* 切换城市 */
+.header_c .header_left .city {
+    float: left;
+    width: 60px;
+    height: 40px;
+    margin-right: 34px;
+    cursor: pointer;
+}
+.header_c .header_left .city span {
+    color:#0dca9f;
+}
+.header_c .header_left .city i {
+    color:#5f646d;
+}
+/* 导航部分 */
+.header_c .header_left .nav {
+    float: left;
+}
+/* 设置字体需要给a设置，给li设置没用 */
+.header_c .header_left .nav li {
+    float: left;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    /* color: #f00; */
+}
+.header_c .header_left .nav li:nth-child(4) {
+    width: 98px;
+}
+.header_c .header_left .nav li a{
+    position: relative;
+    color: #afb5c0;
+}
+.header_c .header_left .nav li:hover a{
+    color: #fff;
+}
+.header_c .header_left .nav li:nth-child(1) {
+    background: #24282c;
+}
+.header_c .header_left .nav li a .sign_1 {
+    position: absolute;
+    right: -25px;
+    top: -8px;
+    width: 29px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 9px;
+    background-color: #ff7452;
+}
+.header_c .header_left .nav .lagou_app a img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    margin-right: 10px;
+    width: 12px;
+    height: 20px;
+}
+.header_c .header_left .nav .lagou_app a span {
+    margin-left: 15px;
+    color: #27988a;
+}
+.header_c .header_left .nav .lagou_app {
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+}
+/* 右侧 */
+.header_c .header_right {
+    float:right;
+}
+.header_c .header_right a,.header_c .header_right span {
+    float: left;
+}
+.header_c .header_right .login {
+    position: relative;
+    width: 28px;
+    height: 40px;
+    color: #afb5c0;
+    text-align: center;
+}
+.header_c .header_right .login i {
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    left: -28px;
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    background: url(../images/sprite_01.png) no-repeat -76px -136px;
+}
+.header_c .header_right .login:hover i{
+    background: url(../images/sprite_01.png) no-repeat -76px -174px;
+}
+.header_c .header_right span {
+    width: 18px;
+    height: 40px;
+    color: #afb5c0;
+    text-align: center;
+}
+.header_c .header_right .register {
+    width: 28px;
+    height: 40px;
+    color: #afb5c0;
+}
+.header_c .header_right .enterprise {
+    width: 70px;
+    height: 40px;
+    margin-left: 52px;
+    color: #afb5c0;
+}
+.header_c .header_right a:hover {
+    color: #fff;
+}
